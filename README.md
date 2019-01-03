@@ -1,2 +1,1 @@
-# lab10
-Code for Lab 10: Type-level programming
+# Lab 10: Type-level programming

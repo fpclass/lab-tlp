@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 10: Type-level programming                                             --
+-- Lab: Type-level programming                                                --
 --------------------------------------------------------------------------------
 
 {-# LANGUAGE DataKinds #-}
@@ -10,7 +10,7 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE TypeFamilies #-}
 
-module Lab10 where
+module Lab where
 
 --------------------------------------------------------------------------------
 

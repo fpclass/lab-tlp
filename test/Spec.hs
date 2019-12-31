@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 10: Type-level programming                                             --
+-- Lab: Type-level programming                                                --
 --------------------------------------------------------------------------------
 
 {-# OPTIONS_GHC -fdefer-type-errors #-}
@@ -17,7 +17,7 @@ import Test.HUnit
 import Test.QuickCheck
 import Test.ShouldNotTypecheck (shouldNotTypecheck)
 
-import qualified Lab10 as L
+import qualified Lab as L
 
 --------------------------------------------------------------------------------
 

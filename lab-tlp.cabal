@@ -1,19 +1,19 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.0.
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 80ed327c6ddbb7bfa63cd74331caff61fbede8bcca28e75baeb1b528c2478378
+-- hash: 7257687b49af140bc57bd2a5d0c16955272d5330a325b98851bd4a97e816b3a5
 
-name:           lab10
-version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/fpclass/lab10#readme>
-homepage:       https://github.com/fpclass/lab10#readme
-bug-reports:    https://github.com/fpclass/lab10/issues
+name:           lab-tlp
+version:        0.2.0.0
+description:    Please see the README on GitHub at <https://github.com/fpclass/lab-tlp#readme>
+homepage:       https://github.com/fpclass/lab-tlp#readme
+bug-reports:    https://github.com/fpclass/lab-tlp/issues
 author:         Michael B. Gale
 maintainer:     m.gale@warwick.ac.uk
-copyright:      Copyright 2018 Michael B. Gale
+copyright:      Copyright 2020 Michael B. Gale
 license:        MIT
 license-file:   LICENSE
 build-type:     Simple
@@ -22,13 +22,13 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/fpclass/lab10
+  location: https://github.com/fpclass/lab-tlp
 
 library
   exposed-modules:
-      Lab10
+      Lab
   other-modules:
-      Paths_lab10
+      Paths_lab_tlp
   hs-source-dirs:
       src
   default-extensions: PolyKinds DataKinds GADTs TypeFamilies TypeOperators FlexibleContexts FlexibleInstances
@@ -36,11 +36,11 @@ library
       base >=4.7 && <5
   default-language: Haskell2010
 
-test-suite lab10-test
+test-suite lab-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_lab10
+      Paths_lab_tlp
   hs-source-dirs:
       test
   default-extensions: PolyKinds DataKinds GADTs TypeFamilies TypeOperators FlexibleContexts FlexibleInstances
@@ -51,6 +51,6 @@ test-suite lab10-test
     , base >=4.7 && <5
     , deepseq
     , hspec
-    , lab10
+    , lab-tlp
     , should-not-typecheck
   default-language: Haskell2010

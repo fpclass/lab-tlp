@@ -1,1 +1,1 @@
-# Lab 10: Type-level programming
+# Lab: Type-level programming

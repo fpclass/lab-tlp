@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7257687b49af140bc57bd2a5d0c16955272d5330a325b98851bd4a97e816b3a5
+-- hash: 8f1d00a1850c41a229d2bc22fc06b9ad4d859388950c2dc952385447a165ba84
 
 name:           lab-tlp
 version:        0.2.0.0
@@ -44,7 +44,7 @@ test-suite lab-test
   hs-source-dirs:
       test
   default-extensions: PolyKinds DataKinds GADTs TypeFamilies TypeOperators FlexibleContexts FlexibleInstances
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -fno-warn-deferred-type-errors
+  ghc-options: -threaded -rtsopts -fno-warn-deferred-type-errors
   build-depends:
       HUnit
     , QuickCheck
